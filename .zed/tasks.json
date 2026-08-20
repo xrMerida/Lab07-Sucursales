@@ -1,0 +1,17 @@
+[
+  {
+    "label": "CMAKE: Configure",
+    "command": "cmake --preset linux-debug",
+    "tags": ["cmake-project"],
+  },
+  {
+    "label": "CMAKE: Build All",
+    "command": "cmake --build out/build/linux-debug --parallel",
+    "tags": ["cmake-project"],
+  },
+  {
+    "label": "CMAKE: Clean",
+    "command": "cmake --build out/build/linux-debug --target clean",
+    "tags": ["cmake-project"],
+  },
+]

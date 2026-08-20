@@ -1,0 +1,9 @@
+# Visual Studio (MSVS) style, cross-platform.
+# Braces on their own line (Allman), tabs, C++20.
+BasedOnStyle: LLVM
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+ColumnLimit: 120
+Standard: c++20
+BreakBeforeBraces: Allman

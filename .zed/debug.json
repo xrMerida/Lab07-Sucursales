@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Linux Debug",
+        "build": "CMAKE: Build All",
+        "program": "$ZED_WORKTREE_ROOT/out/build/linux-debug/Lab7-Sucursales",
+        "request": "launch",
+        "console": "integratedTerminal",
+        "adapter": "CodeLLDB",
+    },
+]

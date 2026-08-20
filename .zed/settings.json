@@ -1,0 +1,10 @@
+{
+  "tab_size": 4,
+  "languages": {
+    "C++": {
+      "hard_tabs": true,
+      "formatter": "language_server",
+      "language_servers": ["clangd"]
+    }
+  }
+}
